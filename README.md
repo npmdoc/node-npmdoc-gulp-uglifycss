@@ -1,9 +1,14 @@
-# api documentation for  [gulp-uglifycss (v1.0.8)](https://github.com/rezzza/gulp-uglifycss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uglifycss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uglifycss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss)
+# npmdoc-gulp-uglifycss
+
+#### api documentation for  [gulp-uglifycss (v1.0.8)](https://github.com/rezzza/gulp-uglifycss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uglifycss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uglifycss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss)
+
 #### Gulp plugin to use uglifycss
 
-[![NPM](https://nodei.co/npm/gulp-uglifycss.png?downloads=true)](https://www.npmjs.com/package/gulp-uglifycss)
+[![NPM](https://nodei.co/npm/gulp-uglifycss.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-uglifycss)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-uglifycss_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-uglifycss/build/screenCapture.npmPackageListing.svg)
 
@@ -51,13 +56,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "spy-seth",
-            "email": "armand@forgebinaire.net"
+            "name": "spy-seth"
         }
     ],
     "name": "gulp-uglifycss",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/rezzza/gulp-uglifycss.git"
@@ -68,16 +71,6 @@
     "version": "1.0.8"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-uglifycss](#apidoc.module.gulp-uglifycss)
-
-
-
-# <a name="apidoc.module.gulp-uglifycss"></a>[module gulp-uglifycss](#apidoc.module.gulp-uglifycss)
 
 
 
