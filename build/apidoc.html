@@ -61,12 +61,132 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uglifycss">module gulp-uglifycss</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglifycss.gulp-uglifycss">
+            function <span class="apidocSignatureSpan"></span>gulp-uglifycss
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglifycss.toString">
+            function <span class="apidocSignatureSpan">gulp-uglifycss.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uglifycss.toString">module gulp-uglifycss.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglifycss.toString.toString">
+            function <span class="apidocSignatureSpan">gulp-uglifycss.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-uglifycss" id="apidoc.module.gulp-uglifycss">module gulp-uglifycss</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-uglifycss.gulp-uglifycss" id="apidoc.element.gulp-uglifycss.gulp-uglifycss">
+        function <span class="apidocSignatureSpan"></span>gulp-uglifycss
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-uglifycss = function (options) {
+    return through2.obj(function (file, enc, cb) {
+        if (file.isNull()) {
+            return cb(null, file);
+        }
+
+        if (file.isStream()) {
+            return cb(new PluginError(&#x27;gulp-uglifycss&#x27;, &#x27;Stream is not supported&#x27;));
+        }
+
+        var str = file.contents.toString(&#x27;utf8&#x27;);
+        file.contents = new Buffer(uglifycss.processString(str, options));
+
+        return cb(null, file);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-uglifycss.toString" id="apidoc.element.gulp-uglifycss.toString">
+        function <span class="apidocSignatureSpan">gulp-uglifycss.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            return cb(null, file);
+        }
+
+        if (file.isStream()) {
+            return cb(new PluginError(&#x27;gulp-uglifycss&#x27;, &#x27;Stream is not supported&#x27;));
+        }
+
+        var str = file.contents.<span class="apidocCodeKeywordSpan">toString</span>(&#x27;utf8&#x27;);
+        file.contents = new Buffer(uglifycss.processString(str, options));
+
+        return cb(null, file);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.gulp-uglifycss.toString" id="apidoc.module.gulp-uglifycss.toString">module gulp-uglifycss.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-uglifycss.toString.toString" id="apidoc.element.gulp-uglifycss.toString.toString">
+        function <span class="apidocSignatureSpan">gulp-uglifycss.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            return cb(null, file);
+        }
+
+        if (file.isStream()) {
+            return cb(new PluginError(&#x27;gulp-uglifycss&#x27;, &#x27;Stream is not supported&#x27;));
+        }
+
+        var str = file.contents.<span class="apidocCodeKeywordSpan">toString</span>(&#x27;utf8&#x27;);
+        file.contents = new Buffer(uglifycss.processString(str, options));
+
+        return cb(null, file);
+    });
+};
+...</pre></li>
+    </ul>
+
 
 </div>
 
