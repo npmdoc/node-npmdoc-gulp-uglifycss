@@ -1,6 +1,6 @@
 # npmdoc-gulp-uglifycss
 
-#### api documentation for  [gulp-uglifycss (v1.0.8)](https://github.com/rezzza/gulp-uglifycss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uglifycss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uglifycss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss)
+#### basic api documentation for  [gulp-uglifycss (v1.0.8)](https://github.com/rezzza/gulp-uglifycss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uglifycss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uglifycss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uglifycss)
 
 #### Gulp plugin to use uglifycss
 
@@ -68,7 +68,8 @@
     "scripts": {
         "test": "mocha -R spec"
     },
-    "version": "1.0.8"
+    "version": "1.0.8",
+    "bin": {}
 }
 ```
 
